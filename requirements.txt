@@ -1,0 +1,11 @@
+calflops==0.3.2
+dynamic_network_architectures==0.3.1
+h5py==3.13.0
+mamba_ssm==2.2.4
+matplotlib==3.10.7
+numpy==2.3.5
+pandas==2.3.3
+PyYAML==6.0.2
+scipy==1.16.3
+torch==2.5.1+cu124
+tqdm==4.66.2

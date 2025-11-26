@@ -1,0 +1,11 @@
+model_config:
+  input_channels: 2
+  n_stages: 2
+  features_per_stage: [32, 64]
+  kernel_sizes: [3, 3]
+  strides: [1, 2]
+  n_conv_per_stage: [2, 2]
+  num_classes: 4
+  n_conv_per_stage_decoder: [2, 2]
+  deep_supervision: false
+
