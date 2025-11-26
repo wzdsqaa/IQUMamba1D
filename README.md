@@ -2,12 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+This repository corresponds to the study titled ‘IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation’, submitted to [Journal of King Saud University Computer and Information Sciences].
+
 This is the official code repository for the paper:
-
-**[Paper Title: IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation]**
-
-**Authors:** 
-
 
 > **Abstract:** Single-channel blind source separation (SCBSS) remains a formidable challenge in modern wireless communication systems, especially when applied to long-duration, spectrally overlapped complex baseband signals. Existing deep learning approaches are hindered by limited receptive fields, vanishing gradients, or quadratic computational complexity, making them impractical for real-time separation of extended signal frames. To overcome these limitations, we propose IQUMamba-1D, a one-dimensional U-Net architecture enhanced with selective structured state-space model (SSM). The framework synergistically integrates long-range temporal modeling through Mamba blocks while preserving multi-scale feature extraction via U-Net. Three communication-specific innovations are introduced: adaptive dual tokenization mitigates quadrature imbalance by stage-dependent tokenization mode selection between temporal and channel token modes; complex-valued selective state space modeling enforces geometric consistency in the complex plane by jointly processing in-phase and quadrature components; and an adaptive skip connection processor alleviates semantic gaps induced by aggressive downsampling, thereby preserving phase coherence vital for signal reconstruction. Evaluated across synthetic and public datasets with signal lengths up to 32 768 samples, IQUMamba-1D achieves state-of-the-art separation performance with linear computational complexity. The proposed method provides a theoretically grounded and computationally efficient solution for SCBSS of spectrally overlapped communication signals under single-channel observation.
 
@@ -70,4 +67,5 @@ If you find this code or paper useful, please cite:
 ```bibtex
 @article{IQUMamba1D,
   title={IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation},
+
 }
