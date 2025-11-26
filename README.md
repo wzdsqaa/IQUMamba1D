@@ -32,7 +32,7 @@ This repository contains the code necessary to train, evaluate, and reproduce th
 ## Data Preparation
 
 1.  **Download Datasets:** Obtain the required datasets (e.g., RML2016.10a, RML2018.01a, TorchSig, 8PSK-E, or your custom dataset).
-2.  **Organize Data:** Public dataset BPSK and QPSK waveform files: You can download the RML2016.10a or RML2018.01a dataset yourself, use the TorchSig toolkit to generate BPSK and QPSK data, and convert the data at the corresponding signal-to-noise ratio into mat files. You can also use our pre-processed data at `data/` directory. The dataset generation code used in this article is located in the `dataset_gen`.
+2.  **Organize Data:** Public dataset BPSK and QPSK waveform files: You can download the RML2016.10a or RML2018.01a dataset yourself, use the TorchSig toolkit to generate BPSK and QPSK data, and convert the data at the corresponding signal-to-noise ratio into mat files. You can also download our pre-processed data at `https://pan.quark.cn/s/60bf90af3b3a`. The dataset generation code used in this article is located in the `dataset_gen`. The waveform files for BPSK and QPSK used in the RML2016.10a dataset are already included in the `data/RML2016 folder`, and the code can be run directly using this dataset.
 3.  **Prepare Data Format:** Ensure your data loading scripts (e.g., in `main.py` or a dedicated data loader script) can read the data from the specified paths and format it correctly for the model (e.g., complex-valued I/Q signals).
 
 ## Usage
@@ -69,3 +69,4 @@ If you find this code or paper useful, please cite:
   title={IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation},
 
 }
+
