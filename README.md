@@ -55,15 +55,16 @@ To train the IQUMamba-1D model, use the `main.py` script with appropriate argume
     # Example command from run.bash (TorchSig dataset, multiple runs)
     python main.py --data_choice TorchSig --source_names BPSK QPSK --multiple_runs --num_runs 5 --start_seed 42
     ```
-
-## Acknowledgements
-
-*   We thank the authors of the [U-Mamba repository](https://github.com/bowang-lab/U-Mamba) for making their U-Net and Mamba integration code publicly available. The implementation of our 1D U-Net architecture in `models/IQUMamba.py` was inspired by and adapted from their work.
-
 ## Citation
 If you find this code useful, please cite our paper:
 
 > Shaoyuan Gao, Wenpu Guo, Hao Shi, Ruiyan Peng. "IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation." *Accepted at Journal of King Saud University Computer and Information Sciences*, 2025.
+
+## Acknowledgements
+*   We thank the authors of the [U-Mamba repository](https://github.com/bowang-lab/U-Mamba) for making their U-Net and Mamba integration code publicly available. The implementation of our 1D U-Net architecture in `models/IQUMamba.py` was inspired by and adapted from their work.
+
+
+
 
 
 
