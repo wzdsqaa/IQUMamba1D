@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository corresponds to the study titled ‘IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation’, submitted to [Journal of King Saud University Computer and Information Sciences].
+This repository corresponds to the study titled ‘IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation’, submitted to Journal of King Saud University Computer and Information Sciences.
 
 This is the official code repository for the paper:
 
@@ -61,14 +61,10 @@ To train the IQUMamba-1D model, use the `main.py` script with appropriate argume
 *   We thank the authors of the [U-Mamba repository](https://github.com/bowang-lab/U-Mamba) for making their U-Net and Mamba integration code publicly available. The implementation of our 1D U-Net architecture in `models/IQUMamba.py` was inspired by and adapted from their work.
 
 ## Citation
+If you find this code useful, please cite our paper:
 
-If you find this code or paper useful, please cite:
+> Shaoyuan Gao, Wenpu Guo, Hao Shi, Ruiyan Peng. "IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation." *Accepted at Journal of King Saud University Computer and Information Sciences*, 2025.
 
-```bibtex
-@article{IQUMamba1D,
-  title={IQUMamba-1D: A Mamba-Enhanced 1D U-Net for Single-Channel Communication Signal Blind Source Separation},
-
-}
 
 
 
